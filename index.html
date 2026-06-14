@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartSafar | Modified Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="hero">
+  <nav>
+    <div class="brand"><span>S</span> SmartSafar</div>
+    <div class="nav-links">
+      <a href="#routes" data-i18n="navRoutes">Routes</a>
+      <a href="#hotels" data-i18n="navHotels">Hotels</a>
+      <a href="#passes" data-i18n="navPass">Passes</a>
+      <a href="#maps" data-i18n="navMaps">Maps</a>
+      <a href="#planner" data-i18n="navPlanner">Planner</a>
+    </div>
+    <button class="lang" onclick="toggleLanguage()">اردو / EN</button>
+  </nav>
+
+  <section class="hero-content">
+    <div>
+      <p class="tag" data-i18n="tagline">Pakistan Travel & Culture Super App Demo</p>
+      <h1 data-i18n="heroTitle">Discover Pakistan with one digital pass for transport, hotels, culture, routes, and tourism.</h1>
+      <p data-i18n="heroText">Plan journeys across Hunza, Skardu, Lahore, Islamabad, Karachi and more with digital passes, Pakistani cultural destinations, hotel links, safety tools and maps.</p>
+      <div class="hero-buttons">
+        <a href="#routes" data-i18n="startBtn">Start Search</a>
+        <a href="#passes" class="white" data-i18n="passBtn">Generate Pass</a>
+      </div>
+    </div>
+    <div class="hero-photo-card">
+      <img src="pakistan/pakistan_skyline_culture.jpeg" alt="SmartSafar Pakistan"/>
+      <div class="photo-overlay">
+        <b>SmartSafar</b>
+        <span data-i18n="photoText">Pakistan Beauty + Transport + Safety</span>
+      </div>
+    </div>
+  </section>
+</header>
+
+<main>
+<section id="routes" class="panel">
+  <div class="section-head">
+    <div>
+      <p class="tag dark" data-i18n="routeFinder">Route Finder</p>
+      <h2 data-i18n="routeTitle">Search cheapest and fastest paths</h2>
+    </div>
+    <span class="badge" data-i18n="demoData">Demo + fallback data</span>
+  </div>
+
+  <div class="search-box">
+    <input id="fromCity" placeholder="From e.g. Islamabad"/>
+    <input id="toCity" placeholder="To e.g. Hunza"/>
+    <select id="mode">
+      <option value="all">All</option>
+      <option value="bus">Bus</option>
+      <option value="train">Train</option>
+      <option value="flight">Flight</option>
+      <option value="car">Car</option>
+    </select>
+    <button onclick="searchRoutes()" data-i18n="searchBtn">Search</button>
+  </div>
+
+  <div class="quick">
+    <button onclick="quickRoute('Islamabad','Hunza')">Islamabad → Hunza</button>
+    <button onclick="quickRoute('Islamabad','Skardu')">Islamabad → Skardu</button>
+    <button onclick="quickRoute('Lahore','Islamabad')">Lahore → Islamabad</button>
+    <button onclick="quickRoute('Lahore','Karachi')">Lahore → Karachi</button>
+    <button onclick="quickRoute('Islamabad','Murree')">Islamabad → Murree</button>
+  </div>
+
+  <div id="routeResults" class="cards"></div>
+</section>
+
+<section class="image-strip">
+  <div class="destination">
+    <img src="pakistan/hunza.png" alt="Hunza mountains and modern train concept"/>
+    <h3>Hunza Valley</h3>
+  </div>
+  <div class="destination">
+    <img src="pakistan/skardu.jpg" alt="Skardu and northern mountains"/>
+    <h3>Skardu Mountains</h3>
+  </div>
+  <div class="destination">
+    <img src="pakistan/lahore.jpg" alt="Lahore Fort heritage destination"/>
+    <h3>Lahore Fort</h3>
+  </div>
+  <div class="destination">
+    <img src="pakistan/shalimar_gardens.jpg" alt="Shalimar Gardens Lahore"/>
+    <h3>Shalimar Gardens</h3>
+  </div>
+  <div class="destination">
+    <img src="pakistan/bus.jpg" alt="Smart public transport in Pakistan city"/>
+    <h3>Smart City Transit</h3>
+  </div>
+  <div class="destination">
+    <img src="pakistan/route_map.jpg" alt="Pakistan digital route map"/>
+    <h3>Pakistan Route Map</h3>
+  </div>
+</section>
+
+<section class="panel culture-panel">
+  <div class="section-head">
+    <div>
+      <p class="tag dark">Discover Pakistan</p>
+      <h2>Culture, heritage and natural beauty</h2>
+    </div>
+    <span class="badge">Pakistan-focused demo</span>
+  </div>
+  <div class="culture-grid">
+    <div class="culture-card truck"><h3>Truck Art</h3><p>Colorful moving art, local creativity and Pakistani road culture.</p></div>
+    <div class="culture-card sufi"><h3>Sufi Heritage</h3><p>Shrines, qawwali nights and spiritual cultural experiences.</p></div>
+    <div class="culture-card crafts"><h3>Handicrafts</h3><p>Ajrak, embroidery, woodwork, gemstones and local marketplaces.</p></div>
+    <div class="culture-card food"><h3>Food Streets</h3><p>Lahore, Karachi and Peshawar food routes for travelers.</p></div>
+  </div>
+</section>
+
+<section class="panel visual-demo">
+  <div class="section-head">
+    <div>
+      <p class="tag dark">Picture-Based Demo</p>
+      <h2>How SmartSafar feels in real travel</h2>
+    </div>
+    <span class="badge">All images are local</span>
+  </div>
+  <div class="visual-grid">
+    <div class="visual-card big">
+      <img src="pakistan/qr_scan_gate.jpg" alt="QR pass scanning demo"/>
+      <div><h3>Scan once, travel easily</h3><p>Passengers use a digital QR pass for transport, attractions and tourism access.</p></div>
+    </div>
+    <div class="visual-card">
+      <img src="pakistan/bus.jpg" alt="Smart bus Pakistan"/>
+      <div><h3>Connected transport</h3><p>Buses, trains, shuttles and city routes connected in one platform.</p></div>
+    </div>
+    <div class="visual-card">
+      <img src="pakistan/pakistan_skyline_culture.jpeg" alt="Pakistan cultural skyline"/>
+      <div><h3>Culture + mobility</h3><p>Tourism, heritage and Pakistani culture become part of the travel pass.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="passes" class="panel">
+  <div class="section-head">
+    <div>
+      <p class="tag dark" data-i18n="passSmall">Travel Pass</p>
+      <h2 data-i18n="passTitle">Generate passenger travel pass</h2>
+    </div>
+    <span class="badge" data-i18n="offlinePass">Offline demo pass</span>
+  </div>
+
+  <div class="search-box pass-grid">
+    <input id="passName" placeholder="Passenger name"/>
+    <input id="passCNIC" placeholder="CNIC / Student ID"/>
+    <input id="passRoute" placeholder="Route e.g. Islamabad → Hunza"/>
+    <select id="passType">
+      <option value="Student">Student</option>
+      <option value="Tourist">Tourist</option>
+      <option value="Family">Family</option>
+      <option value="Emergency">Emergency</option>
+    </select>
+    <button onclick="generatePass()" data-i18n="generateBtn">Generate Pass</button>
+  </div>
+
+  <div id="passOutput"></div>
+</section>
+
+<section id="hotels" class="panel">
+  <div class="section-head">
+    <div>
+      <p class="tag dark" data-i18n="hotelSmall">Hotel Finder</p>
+      <h2 data-i18n="hotelTitle">Hotels with direct links</h2>
+    </div>
+    <span class="badge">Google + Booking</span>
+  </div>
+  <div class="search-box two">
+    <input id="hotelCity" placeholder="City e.g. Lahore"/>
+    <select id="hotelBudget">
+      <option value="all">All budgets</option>
+      <option value="budget">Budget</option>
+      <option value="mid">Mid-range</option>
+      <option value="premium">Premium</option>
+    </select>
+    <button onclick="searchHotels()" data-i18n="showHotels">Show Hotels</button>
+  </div>
+  <div id="hotelResults" class="cards"></div>
+</section>
+
+<section id="maps" class="panel">
+  <div class="section-head">
+    <div>
+      <p class="tag dark" data-i18n="mapSmall">Path Finding</p>
+      <h2 data-i18n="mapTitle">Google Maps directions and preview</h2>
+    </div>
+  </div>
+  <div class="search-box">
+    <input id="mapFrom" placeholder="From city"/>
+    <input id="mapTo" placeholder="To city"/>
+    <select id="mapMode">
+      <option value="driving">Driving</option>
+      <option value="transit">Transit</option>
+      <option value="walking">Walking</option>
+    </select>
+    <button onclick="openDirections()" data-i18n="openDirections">Open Directions</button>
+  </div>
+  <div class="map-wrap">
+    <div>
+      <button onclick="previewMap()" data-i18n="previewMap">Preview Map</button>
+      <button onclick="openCityMap()" class="soft" data-i18n="openCity">Open City Map</button>
+      <p class="hint" data-i18n="mapHint">Embedded map preview shows destination. Directions open in Google Maps.</p>
+    </div>
+    <iframe id="mapFrame" src="https://maps.google.com/maps?q=Pakistan&z=5&output=embed"></iframe>
+  </div>
+</section>
+
+<section id="planner" class="panel">
+  <div class="section-head">
+    <div>
+      <p class="tag dark" data-i18n="plannerSmall">Planner</p>
+      <h2 data-i18n="plannerTitle">AI-style trip planner</h2>
+    </div>
+  </div>
+  <div class="search-box">
+    <input id="budget" type="number" placeholder="Budget PKR"/>
+    <input id="days" type="number" placeholder="Days"/>
+    <select id="tripType">
+      <option value="student">Student cheapest</option>
+      <option value="family">Family comfort</option>
+      <option value="tourist">Tourist sightseeing</option>
+    </select>
+    <button onclick="makePlan()" data-i18n="makePlan">Make Plan</button>
+  </div>
+  <div id="planResult" class="notice"></div>
+</section>
+
+<section class="grid-2">
+  <div class="panel">
+    <p class="tag dark" data-i18n="alertsSmall">Alerts</p>
+    <h2 data-i18n="alertsTitle">Road and weather alerts</h2>
+    <ul id="alerts"></ul>
+  </div>
+  <div class="panel">
+    <p class="tag dark" data-i18n="emergencySmall">Emergency</p>
+    <h2 data-i18n="emergencyTitle">Quick help</h2>
+    <div class="emergency">
+      <button onclick="showHelp('Police: 15')">Police</button>
+      <button onclick="showHelp('Rescue: 1122')">Rescue</button>
+      <button onclick="showHelp('Motorway Police: 130')">Motorway</button>
+      <button onclick="showHelp('Tourist Helpline: 1422')">Tourist</button>
+    </div>
+    <div id="helpBox" class="notice">Click a help button.</div>
+  </div>
+</section>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+    <button class="close" onclick="closeModal()">×</button>
+    <h2>Demo Booking</h2>
+    <div id="modalBody"></div>
+    <button onclick="alert('Demo booking confirmed and pass can be generated now!'); closeModal()">Confirm</button>
+  </div>
+</div>
+
+<footer>SmartSafar Pakistan Demo | Culture + Beauty + Transport + Pass + Urdu</footer>
+<script src="script.js"></script>
+</body>
+</html>
