@@ -1,4 +1,4 @@
- martSafar 🇵🇰
+ SmartSafar 🇵🇰
 
 SmartSafar is a front-end demo web app that imagines a "one digital pass" travel and culture platform for Pakistan — combining route search, hotel discovery, travel passes, maps, an AI-style trip planner, and emergency tools, all wrapped in Pakistani heritage branding with Urdu/English language support.
 
