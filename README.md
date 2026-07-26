@@ -1,80 +1,160 @@
- SmartSafar 🇵🇰
+#  SmartSafar – AI Travel Planner & Digital Travel Companion
 
-SmartSafar is a front-end demo web app that imagines a "one digital pass" travel and culture platform for Pakistan — combining route search, hotel discovery, travel passes, maps, an AI-style trip planner, and emergency tools, all wrapped in Pakistani heritage branding with Urdu/English language support.
+##  About SmartSafar
+
+SmartSafar is an AI-powered travel planning web application designed to simplify travel planning for local and international travelers. Instead of searching multiple websites for destinations, budgets, maps, and travel information, SmartSafar brings everything together in one place.
+
+The platform helps users create personalized travel itineraries, estimate travel budgets, explore destinations, and access essential travel information through an intelligent AI assistant.
+
+### Problem It Solves
+
+Planning a trip often requires switching between multiple websites for destination research, budgeting, maps, currency conversion, and itinerary creation. This process is time-consuming and confusing, especially for first-time travelers.
+
+SmartSafar solves this problem by providing an all-in-one AI travel planning platform that generates customized travel plans based on the user's destination, budget, travel duration, and preferences.
+
+### Target Users
+
+* Tourists
+* Students
+* Families
+* Solo travelers
+* Business travelers
+* Anyone planning domestic or international trips
+
+#  Live Demo
+
+**Live Website**
+
+https://unified-digital-travel-pass-for-pakistan-e0z3b0c2x.vercel.app/
+
+#  Features
+
+* 🤖 AI-powered travel itinerary generation
+* 🌍 Worldwide destination planning
+* 💰 Travel budget estimation
+* 💱 Currency conversion
+* 🗺️ Google Maps integration
+* 📍 Destination exploration
+* 📅 Personalized day-by-day travel plans
+* 📱 Responsive design for desktop and mobile
+* ⚡ Fast performance using Next.js
+
+---
+
+# AI Feature
+
+SmartSafar uses Generative AI to create personalized travel itineraries based on user preferences.
+
+The AI analyzes:
+
+* Destination
+* Trip duration
+* Budget
+* Travel style
+* User preferences
+
+and generates a structured travel plan with suggested activities and recommendations.
+
+### AI System Prompt
+
+The AI is instructed to:
+
+> You are SmartSafar AI, an expert travel planning assistant. Generate realistic, personalized travel itineraries based on the user's destination, travel duration, budget, and travel preferences. Recommend attractions, transportation options, estimated costs, and daily activities. Present the itinerary in a clear day-by-day format while keeping recommendations practical and budget-aware.
+
+---
+
+# 🛠️ Technologies Used
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+### AI
+
+* Google Gemini API *(or update this if you switched to another model)*
+
+### Maps
+
+* Google Maps
+
+### Deployment
+
+* Vercel
+
+### Version Control
+
+* Git
+* GitHub
+
+# How to Run the Project
+
+Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+Navigate to the project
+
+```bash
+cd Unified-Digital-Travel-Pass-for-Pakistan
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit
+
+```
+http://localhost:3000
+```
 
 
-⚠️ Note: This is a demo project. All data (routes, hotels, plans, alerts) is static/fallback data — there is no backend or live API integration.
+# Project Structure
+
+```
+app/
+components/
+lib/
+public/
+package.json
+next.config.mjs
+```
+
+# Future Improvements
+
+* Hotel booking integration
+* Flight booking integration
+* Real-time weather forecasts
+* Visa information
+* Travel expense tracking
+* Multi-language support
+* AI chat assistant
+* Offline itinerary support
 
 
+# Developer
+
+**Ayesha Umar**
+
+BS Computer Science
+
+Pakistan Institute of Engineering and Applied Sciences (PIEAS)
+
+# Acknowledgements
+
+This project was developed as the Final Project for the AI App Development course. It demonstrates the integration of modern web development technologies with Generative AI to solve a real-world travel planning problem.
 
 
-✨ Features
-
-
-Route Finder – Search routes between cities (e.g. Islamabad → Hunza) by Bus, Train, Flight, or Car, with quick-select buttons for popular routes.
-Travel Pass Generator – Generate a demo digital pass with passenger name, CNIC/Student ID, route, and pass type (Student, Tourist, Family, Emergency).
-Hotel Finder – Search hotels by city and budget (Budget, Mid-range, Premium) with direct links to Google and Booking.
-Maps & Directions – Embedded Google Maps preview with options to open full directions or a city map.
-AI-Style Trip Planner – Generate a basic plan based on budget, number of days, and trip type (Student, Family, Tourist).
-Road & Weather Alerts – A simple alerts section for travel conditions.
-Emergency Quick Help – One-tap access to Police, Rescue, Motorway Police, and Tourist Helpline numbers.
-Culture & Destination Gallery – Showcases Hunza Valley, Skardu, Lahore Fort, Shalimar Gardens, Truck Art, Sufi Heritage, Handicrafts, and Food Streets.
-Urdu / English Toggle – Switch the entire UI language with a single click.
-
-
-
-🛠️ Tech Stack
-
-
-HTML5
-CSS3 (style.css)
-Vanilla JavaScript (script.js)
-Google Maps Embed (iframe)
-
-
-No frameworks, build tools, or backend required.
-
-
-📁 Project Structure
-
-SmartSafar/
-├── index.html
-├── style.css
-├── script.js
-└── pakistan/
-    ├── bus.jpg
-    ├── hunza.png
-    ├── lahore.jpg
-    ├── pakistan_skyline_culture.jpeg
-    ├── qr_scan_gate.jpg
-    ├── route_map.jpg
-    ├── shalimar_gardens.jpg
-    └── skardu.jpg
-
-
-Important: All image paths in index.html are relative to the project root and point inside the pakistan/ folder. Keep this folder structure intact when running or deploying the project.
-
-
-
-
-🚀 Getting Started
-
-
-Clone or download this repository.
-Make sure the pakistan/ image folder, style.css, and script.js are in the same directory as index.html.
-Open index.html with Live Server in VS Code (or simply open it in your browser).
-
-
-bash# Example using Live Server in VS Code
-1. Install the "Live Server" extension
-2. Right-click index.html → "Open with Live Server"
-
-
-🌐 Sections Overview
-
-SectionDescriptionRoutesFind cheapest/fastest paths between citiesPassesGenerate a printable/demo travel passHotelsBrowse hotel options with external booking linksMapsPreview destinations and open directionsPlannerGet a basic trip plan based on budget & daysAlerts & EmergencyTravel alerts and emergency contact numbers
-
-
-📌 Disclaimer
-
-This project is built for demonstration purposes only. Phone numbers, prices, routes, and hotel links are placeholder/fallback data and should be verified independently before relying on them for real travel.
