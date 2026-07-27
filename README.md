@@ -89,114 +89,96 @@ The AI is instructed to:
 * Git
 * GitHub
 
-### Screenshots
+
 ## 📷 Screenshots
 
-### 🏠 Home Page
+### Home Page
 
-![Home Page](./public/dashboard-hero.png)
-
----
-
-### 🚌 Bus Booking
-
-![Bus Booking](./public/bus.jpg)
+![Home Page](./public/images/dashboard-hero.png)
 
 ---
 
-### 🗺️ Route Map
+### Islamabad
 
-![Route Map](./public/route_map.jpg)
-
----
-
-### 📍 Islamabad Destination
-
-![Islamabad](./public/islamabad.png)
+![Islamabad](./public/images/islamabad.png)
 
 ---
 
-### 🏔️ Hunza
+### Hunza
 
-![Hunza](./public/hunza.png)
-
----
-
-### 🏖️ Gwadar
-
-![Gwadar](./public/gwadar.png)
+![Hunza](./public/images/hunza.png)
 
 ---
 
-### 🌆 Karachi
+### Skardu
 
-![Karachi](./public/karachi.png)
-
----
-
-### 🕌 Lahore
-
-![Lahore](./public/lahore.png)
+![Skardu](./public/images/skardu.jpg)
 
 ---
 
-### ❄️ Skardu
+### Lahore
 
-![Skardu](./public/skardu.jpg)
-
----
-
-### 🌲 Swat
-
-![Swat](./public/swat.png)
+![Lahore](./public/images/lahore.png)
 
 ---
 
-### 🏞️ Fairy Meadows
+### Karachi
 
-![Fairy Meadows](./public/fairy-meadows.png)
-
----
-
-### 🌄 Murree
-
-![Murree](./public/murree.png)
+![Karachi](./public/images/karachi.png)
 
 ---
 
-### 🏔️ Naran Kaghan
+### Fairy Meadows
 
-![Naran Kaghan](./public/naran-kaghan.png)
-
----
-
-### 🌿 Neelum Valley
-
-![Neelum Valley](./public/neelum-valley.png)
+![Fairy Meadows](./public/images/fairy-meadows.png)
 
 ---
 
-### 🏛️ Mohenjo Daro
+### Naran Kaghan
 
-![Mohenjo Daro](./public/mohenjo-daro.png)
-
----
-
-### 🌺 Shalimar Gardens
-
-![Shalimar Gardens](./public/shalimar_gardens.jpg)
+![Naran Kaghan](./public/images/naran-kaghan.png)
 
 ---
 
-### 🎫 QR Scan Gate
+### Neelum Valley
 
-![QR Scan Gate](./public/qr_scan_gate.jpg)
+![Neelum Valley](./public/images/neelum-valley.png)
 
 ---
 
-### 🏙️ Pakistan Culture
+### Murree
 
-![Pakistan Culture](./public/pakistan_skyline_culture.png)
+![Murree](./public/images/murree.png)
+
+---
+
+### Gwadar
+
+![Gwadar](./public/images/gwadar.png)
+
+---
+
+### Mohenjo Daro
+
+![Mohenjo Daro](./public/images/mohenjo-daro.png)
+
+---
+
+### Shalimar Gardens
+
+![Shalimar Gardens](./public/images/shalimar_gardens.jpg)
+
+---
+
+### QR Scan
+
+![QR Scan](./public/images/qr_scan_gate.jpg)
+
+---
+
+### Bus Booking
+
+![Bus Booking](./public/images/bus.jpg)
 
 # How to Run the Project
 
