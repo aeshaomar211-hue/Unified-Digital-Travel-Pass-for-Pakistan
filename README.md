@@ -63,7 +63,7 @@ The AI is instructed to:
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 ### Frontend
 
@@ -88,6 +88,115 @@ The AI is instructed to:
 
 * Git
 * GitHub
+
+### Screenshots
+## 📷 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](./public/dashboard-hero.png)
+
+---
+
+### 🚌 Bus Booking
+
+![Bus Booking](./public/bus.jpg)
+
+---
+
+### 🗺️ Route Map
+
+![Route Map](./public/route_map.jpg)
+
+---
+
+### 📍 Islamabad Destination
+
+![Islamabad](./public/islamabad.png)
+
+---
+
+### 🏔️ Hunza
+
+![Hunza](./public/hunza.png)
+
+---
+
+### 🏖️ Gwadar
+
+![Gwadar](./public/gwadar.png)
+
+---
+
+### 🌆 Karachi
+
+![Karachi](./public/karachi.png)
+
+---
+
+### 🕌 Lahore
+
+![Lahore](./public/lahore.png)
+
+---
+
+### ❄️ Skardu
+
+![Skardu](./public/skardu.jpg)
+
+---
+
+### 🌲 Swat
+
+![Swat](./public/swat.png)
+
+---
+
+### 🏞️ Fairy Meadows
+
+![Fairy Meadows](./public/fairy-meadows.png)
+
+---
+
+### 🌄 Murree
+
+![Murree](./public/murree.png)
+
+---
+
+### 🏔️ Naran Kaghan
+
+![Naran Kaghan](./public/naran-kaghan.png)
+
+---
+
+### 🌿 Neelum Valley
+
+![Neelum Valley](./public/neelum-valley.png)
+
+---
+
+### 🏛️ Mohenjo Daro
+
+![Mohenjo Daro](./public/mohenjo-daro.png)
+
+---
+
+### 🌺 Shalimar Gardens
+
+![Shalimar Gardens](./public/shalimar_gardens.jpg)
+
+---
+
+### 🎫 QR Scan Gate
+
+![QR Scan Gate](./public/qr_scan_gate.jpg)
+
+---
+
+### 🏙️ Pakistan Culture
+
+![Pakistan Culture](./public/pakistan_skyline_culture.png)
 
 # How to Run the Project
 
