@@ -244,8 +244,6 @@ BS Computer Science
 
 Pakistan Institute of Engineering and Applied Sciences (PIEAS)
 
-# Acknowledgements
 
-This project was developed as the Final Project for the AI App Development course. It demonstrates the integration of modern web development technologies with Generative AI to solve a real-world travel planning problem.
 
 
