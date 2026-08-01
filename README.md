@@ -29,15 +29,15 @@ https://unified-digital-travel-pass-for-pakistan-e0z3b0c2x.vercel.app/
 
 #  Features
 
-* 🤖 AI-powered travel itinerary generation
-* 🌍 Worldwide destination planning
-* 💰 Travel budget estimation
-* 💱 Currency conversion
-* 🗺️ Google Maps integration
-* 📍 Destination exploration
-* 📅 Personalized day-by-day travel plans
-* 📱 Responsive design for desktop and mobile
-* ⚡ Fast performance using Next.js
+*  AI-powered travel itinerary generation
+*  Worldwide destination planning
+*  Travel budget estimation
+*  Currency conversion
+*  Google Maps integration
+*  Destination exploration
+*  Personalized day-by-day travel plans
+*  Responsive design for desktop and mobile
+*  Fast performance using Next.js
 
 ---
 
