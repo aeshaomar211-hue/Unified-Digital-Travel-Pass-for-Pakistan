@@ -26,6 +26,7 @@ SmartSafar solves this problem by providing an all-in-one AI travel planning pla
 **Live Website**
 
 https://unified-digital-travel-pass-for-pakistan-e0z3b0c2x.vercel.app/
+
 https://smartsafar.ploy.build/
 #  Features
 
